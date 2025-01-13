@@ -5,6 +5,7 @@ The goal of the group is to advance space technology innovation and competitiven
 # Coordination Meetings
 
 * [Meeting Notes](meeting-minutes/)
+* [Meeting Schedule](https://elisa.tech/community/meetings/)
 
 # More info
 
