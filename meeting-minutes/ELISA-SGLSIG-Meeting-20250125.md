@@ -24,11 +24,34 @@ The goal of the group is to advance space technology innovation and competitiven
 
 ## Attended this meeting
 
-- Name - Affiliation
+- Ramon Roche (LF)
+- Kate Stewart (LF)
+- Tim Bird (Sony)
+- Andrew E Wilson (L3Harris, BYU, FPGA Zealot)
+- Matt Weber (Boeing)
+- Dongshik Won (TelePIX, KAIST)
+- Tony James (Red Hat)
+- Gabriele Paoloni (Red Hat)
+- Martin Halle (TUHH)
+- Ivan Perez (KBR @ NASA Ames Research Center)
+- Michael Mahoney (Wind River)
+- Paul Greenwood (Vorago Technologies)
+
 
 ## Attended recently in the past
 
-- Name - Affiliation
+- Ramon Roche (LF)
+- Kate Stewart (LF)
+- Tim Bird (Sony)
+- Andrew E Wilson (L3Harris, BYU, FPGA Zealot)
+- Matt Weber (Boeing)
+- Dongshik Won (TelePIX, KAIST)
+- Tony James (Red Hat)
+- Gabriele Paoloni (Red Hat)
+- Martin Halle (TUHH)
+- Ivan Perez (KBR @ NASA Ames Research Center)
+- Michael Mahoney (Wind River)
+- Paul Greenwood (Vorago Technologies)
 
 ---
 
@@ -46,24 +69,73 @@ The goal of the group is to advance space technology innovation and competitiven
   - Linux [Contributor Covenant Code of Conduct](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/code-of-conduct.rst)
   - Linux Kernel Contributor Covenant [Code of Conduct Interpretation](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/code-of-conduct-interpretation.rst)
 
-
 ---
 
 # Announcements
 
+- **Verify your meeting invites only have a https://zoom-lfx.platform.linuxfoundation.org link.  If needed, you can signup at [link](https://zoom-lfx.platform.linuxfoundation.org/meetings/elisa-project?view=week) for the new invite.**
+
+- [Mailing List Sign-up](https://lists.elisa.tech/g/space-grade-linux)
+
+## SGL Workshop
+
+https://github.com/elisa-tech/directory/pull/2
+
 ## Upcoming Events
 
-- List
+- [FOSDEM 2025, Brussels, Belgium](https://fosdem.org/2025/)
+
+#### Upcoming Deadlines
+- SmallSat Abstract (Feb 4th) [link](https://smallsat.org/conference/submit-an-abstract/)
+- RISC-V in Space Abstract (Feb 7th) [link](https://www.risc-v.space/wp/#content-1)
+- ELC NA 2025 (and safety critical conference) (June 23-25, Denver)
+[CFP link](https://events.linuxfoundation.org/open-source-summit-north-america/program/cfp) (CFP deadline Feb 17)
+- ELC EU 2025 (and safety critical conference) (Aug 25-27, Amsterdam)
+
+- Space Mission Challenges for Information Technology / Space Computing Conference (Feb 3rd). [link](https://2025.smcit-scc.space/)
 
 ---
 
 # Technical Topics
 
 * TSC Update for Virtual Briefing
-* Draft Vision/Goals (YES https://elisa.tech/space-grade-linux-sig/)
-* Future events/conferences list
+  * [Draft Vision/Goals](https://elisa.tech/space-grade-linux-sig/)
 * DCO Implementation
 * License for meta-sgl
+
+## TSC Update for Virtual Briefing
+
+Ramon nominated himself to represent the SIG at the TSC Virtual Briefing
+
+TODO: Write a quick paragraph and make sure calendar aligns.
+
+## Licensing for meta-sgl
+
+https://github.com/elisa-tech/meta-sgl
+
+The group agrees the project should have an explicit license, and its good practice to have the license on every file.
+
+Poky is MIT for meta-data, and GPLv2-only for others.  We plan to do MIT for anything not specified.
+
+We are going to be using Creative Commons for Documentation CC-BY-SA4
+
+**TODO:** Some attendees will review MIT as an option
+**TODO:** Tim, will submit a PR for the MIT license.
+
+## DCO / CLA
+
+DCO removes a lot of barriers to entry, and allows individuals to contribute. We think DCO is the way to go, CLA's have a higher barrier for contributions, adds ane extra step that requires legal counsel, and is time consuming.
+
+* How does it work:
+  * Developers will need to sign-off commits
+  * We need tooling to make sure PRs don't get merged w/o signoffs (There's already a GH App in the marketplace)
+* We should follow the [Zephyr](https://docs.zephyrproject.org/latest/contribute/guidelines.html#developer-certification-of-origin-dco)/Kernel repo's for guidance
+  * Both projects are using DCO
+* Link to DCO [link](https://developercertificate.org)
+
+There was agreement on the call that DCO's are the best option to go forward, and what provides the best development workflow for the community.
+
+**Note:** Maintainers will need to make sure they review any licensing changes in PRs, and make sure license changes are explict and agreed upon.
 
 ---
 
@@ -74,3 +146,31 @@ The goal of the group is to advance space technology innovation and competitiven
 Located in [GitHub Issues](https://github.com/elisa-tech/sig-sgl/issues)
 
 ## Round Table
+
+### Target Platforms
+
+**Options discussed on the call**
+* [BeagleV-Fire](https://www.beagleboard.org/boards/beaglev-fire): [Yocto BSP](https://github.com/polarfire-soc/meta-polarfire-soc-yocto-bsp), MIT license
+* AMD-Xilinx FPGA board (MPSoC and/or Versal Edge)
+    * MPSoC -> Ultrazed, ZUboard
+    * Versal Edge -> Avnet, Trenz, iWave SoM
+* Raspberry Pi compute module
+* Jetson Family
+* Other ISAs
+    * x86
+    * SPARC - LEON5
+    * PowerPC - RAD5500
+
+**Some Requirements:**
+* Radiation Performance
+* ECC DDR
+    * DDR4 ADDR/CMD parity
+* Rad-Tolerant bootrom
+    * MRAM
+* FPGA SOCs
+* Quad Core ARM-like
+    * Real-time processors like R5s
+* 2GB RAM (minimum)
+* IO
+  * UARTs, I2Cs
+  * High-speed, standard networking (for ground development)
