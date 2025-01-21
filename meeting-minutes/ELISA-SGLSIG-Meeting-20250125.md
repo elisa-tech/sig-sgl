@@ -36,6 +36,7 @@ The goal of the group is to advance space technology innovation and competitiven
 - Ivan Perez (KBR @ NASA Ames Research Center)
 - Michael Mahoney (Wind River)
 - Paul Greenwood (Vorago Technologies)
+- Chris Heistand (Stoke Space)
 
 
 ## Attended recently in the past
