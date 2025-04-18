@@ -41,7 +41,7 @@ The goal of the group is to advance space technology innovation and competitiven
 - Shefali Sharma
 - Trevor Woerner
 - Walt Miner
-- Alexey Simonov
+- Alexey Simonov, Technology Innovation Institute, UAE
 
 ## Attended recently in the past
 
