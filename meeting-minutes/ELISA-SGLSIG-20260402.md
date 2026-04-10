@@ -30,7 +30,18 @@ The goal of the group is to advance space technology innovation and competitiven
 
 ## Attended this meeting
 
--
+- Ivan Perez (KBR @ NASA Ames Research Center)
+- Leonidas Kosmidis (Barcelona Supercomputing Center)
+- Martin Halle (TUHH)
+- Matt Weber (The Boeing Company)
+- Paul Greenwood (Vorago Technologies)
+- Pedro Roque (Caltech)
+- Philip Balister (OpenEmbedded)
+- Ramon Roche (Dronecode Foundation)
+- Rob Woolley (Wind River)
+- Shefali Sharma
+- Tim Bird (Sony)
+- Yasushi Shoji (Space Cubics)
 
 ## Attended recently in the past
 
@@ -91,12 +102,26 @@ The goal of the group is to advance space technology innovation and competitiven
 
 ## Upcoming Events
 
-- **Apr 4** IEEE SMC-IT/SCC paper deadline
+- **Apr 4** IEEE SMC-IT/SCC IEEE International Conference on Space Mission Challenges for Information Technology (SMC-IT)
+  17th International Conference on Space Computing (SCC) in Pasadena, California, US -> [link](https://2026.smcit-scc.space)
+  - Deadline Paper: April 4, 2026
+    - Post quantum crypto (Leonidas) - (RISC-V crypto focused) (touching on ELISA)
+    - QEMU models for space processors (Leonidas)
+  - Workshop on V&V of multicore systems (prior topics cert / practical issues / interferenace mgmt) - Ivan has a contact if interested.
+- **May 18-20** Open Source Summit North America -> [link](https://events.linuxfoundation.org/open-source-summit-north-america/)
+- **May 27-28** Embedded Recipes, Nice France -> [link](https://embedded-recipes.org/2026/)
+- **May 29** Yocto Project Summit, Nice, France -> [link](https://pretalx.com/yocto-embedded-recipes-2026/)
 - **June 8-12** RISC-V Summit Europe, Bologna, Italy
   - Special session for RISC-V in Space
 - **Aug 03-07** IEEE SMC-IT/SCC in Pasadena, California, US -> [link](https://2026.smcit-scc.space/)
 - **Sept 13-17** ICAS Congress in Sydney, Australia -> [link](https://icas2026.com/)
 - **Sept 13-17** DASC Congress in Orlando, USA -> [link](https://dasconline.org/2026/)
+  - Our AeroWG paper got accepted
+- **Oct 2026** High Integrity Systems Conference [Link](https://www.his-conference.co.uk/)
+  - full presentations open **April 2026**, deadline likely end of May
+  - posters much later, not selected full presentations can be also considered for posters
+  - safe/secure lang focus for high-integ (in-person)
+  - AeroWG may be preparing a submission for this one
 - **NASA SPARK** submissions -> [link](https://spark.nasa.gov/)
 
 ---
@@ -159,9 +184,21 @@ Looking for feedback on:
 
 QEMU fault injection (Radshield collaboration): looking for folks interested in joining a dedicated working session or alternate group call to move this forward.
 
+**Telemetry Capturing**
+
+The group was discussing EDAC/ECC and that brought the topic of capturing telemetry, initially so we can have a public repository of logging that we can query and inform the development, but the conversation forked into live telemetry from production systems, and discussing the implications and possible implementations.
+
+**Virtualization (meta-vert)**
+
+Runtime and Buildtime container support
+Health Monitoring support (eBPF?)
+
 ## Call for Maintainers
 
 Continuing from last meeting. The PR queue is growing and we need community members willing to take on maintainer roles (PR review, documentation). Merge permissions granted in return.
+
+~~**TODO:**~~
+* ~~Add Pedro and Ivan as contributors with maintain permissions on the SGL maintainer team.~~ - done
 
 ---
 
