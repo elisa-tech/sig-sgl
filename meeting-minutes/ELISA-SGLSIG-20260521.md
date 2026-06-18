@@ -33,10 +33,25 @@ The goal of the group is to advance space technology innovation and competitiven
 ## Attended this meeting
 
 - Name - Affiliation
+- Philip Balister (OpenEmbedded)
+- Yasushi SHOJI (Space Cubics)
+- Tim Bird (Sony)
+- Jan-Simon Moeller (AGL)
+- Ivan Rodriguez-Ferrandez (Coros Space)
+- Alexey Simonov (TII)
+- Leonidas Kosmidis (Barcelona Supercomputing Center)
+- Haoda Wang "Harry" (Columbia University)
+- Kaiwei Yang "Kevin" (Columbia University)
+- Rob Woolley (Wind River)
+- José Marcos (CNES)
+- Pawel Wodnicki (32bitmicro)
+- Matt Weber (The Boeing Company)
+- Piotr Skrzypek (European Space Agency)
+- Pedro Roque (Caltech)
 
 ## Attended recently in the past
 
-- Alexey Simonov (TII)
+
 - Brian Kempa
 - Christopher Heistand
 - Cyril Jean (Microchip)
@@ -45,7 +60,6 @@ The goal of the group is to advance space technology innovation and competitiven
 - Douglas Landgraf (Red Hat)
 - Gabriele Paoloni (Red Hat)
 - Hans Weggeman (Wind River)
-- Haoda Wang "Harry" (Columbia University)
 - Hugo Cornelis (Mind OSS)
 - Ivan Perez (KBR @ NASA Ames Research Center)
 - Jan-Simon Moeller (AGL)
@@ -56,7 +70,6 @@ The goal of the group is to advance space technology innovation and competitiven
 - Lukas Mazl (Technical University of Liberec)
 - Manuel Beltran (Boeing)
 - Martin Halle (TUHH)
-- Matt Weber (The Boeing Company)
 - Michael Krasnyk (The Exploration Company)
 - Michael Mahoney (Wind River)
 - Michael Monaghan
@@ -66,8 +79,8 @@ The goal of the group is to advance space technology innovation and competitiven
 - Paul Greenwood (Vorago Technologies)
 - Pedro Roque (Caltech)
 - Philip Balister (OpenEmbedded)
+- Piotr Skrzypek (European Space Agency)
 - Ramon Roche (Dronecode Foundation)
-- Rob Woolley (Wind River)
 - Ryo Takakura
 - Shefali Sharma
 - Tim Bird (Sony)
@@ -107,6 +120,8 @@ The goal of the group is to advance space technology innovation and competitiven
   - Our AeroWG paper got accepted
 - **Oct 2026** High Integrity Systems Conference [Link](https://www.his-conference.co.uk/)
 - **NASA SPARK** submissions -> [link](https://spark.nasa.gov/)
+- **October 7-9** Open Source Summit EU, Prague -> [link](https://events.linuxfoundation.org/open-source-summit-europe/)
+  - CFP closes June 24th
 
 ---
 
@@ -214,6 +229,9 @@ Open follow-ups from last meeting:
 
 Located in [GitHub Issues](https://github.com/elisa-tech/sig-sgl/issues)
 
+TODO: Register for RISC-V EU
+
 ## Next Meeting
 
 - June 18, 2026
+- 
