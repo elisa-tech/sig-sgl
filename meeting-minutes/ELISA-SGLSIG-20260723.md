@@ -29,7 +29,22 @@ The goal of the group is to advance space technology innovation and competitiven
 
 ## Attended this meeting
 
--
+- Ramon Roche (Dronecode Foundation)
+- Ivan Perez (KBR @ NASA Ames Research Center)
+- Haoda Wang (Columbia University & JPL)
+- Pawel Wodnicki (32bitmicro)
+- Rob Woolley (Wind River)
+- Yasushi SHOJI (Space Cubics)
+- Subhajit Ghosh (Tweaklogic)
+- Alexey Simonov (TII / UAE)
+- Tim Bird (Sony)
+- Ivan Pravdin (NVIDIA)
+- Pedro Roque (Caltech)
+- Nick Zajerko-McKee (Vorago Technologies)
+- Naoto Yamaguchi (AISIN)
+- Brennan Hay (NASA GSFC)
+- Michael Monaghan (NASA GSFC)
+
 
 ## Attended recently in the past
 
@@ -65,8 +80,6 @@ The goal of the group is to advance space technology innovation and competitiven
 - Paul Greenwood (Vorago Technologies)
 - Pedro Roque (Caltech)
 - Philip Balister (OpenEmbedded)
-- Ramon Roche (Dronecode Foundation)
-- Rob Woolley (Wind River)
 - Ryo Takakura
 - Shefali Sharma
 - Tim Bird (Sony)
@@ -112,6 +125,12 @@ SGL continues its move toward becoming a standalone Linux Foundation project. Fo
 If your organization is interested in being part of the inaugural group of founding members, now is the time to start that conversation. Founding members will be recognized at launch and benefit from the visibility that comes with it. This is open to organizations of any size, and there is no commitment required to explore the opportunity.
 
 Even if you are just exploring, please reach out to Ramon directly at rroche@linuxfoundation.org. We are happy to have a confidential 1:1 to answer questions and share more about what founding membership involves.
+
+## New Yocto LTS Wrynose
+
+New Kernel, package updates, and the latest meta-virtualization
+
+**TODO**: Rob will add to CI and test with our current infra
 
 ---
 
@@ -160,6 +179,10 @@ Proposed discussion questions from the presenters:
 - What assurance artifacts would help integrate SGL with mission criticality or safety certification requirements?
 
 Open question back to the working group: what data-layer guarantees should SGL make visible to payload and vehicle developers?
+
+### Presentation Discussion / Notes
+
+
 
 ## Roadmap Discussion (continued)
 
